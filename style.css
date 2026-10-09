@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: yellow; */
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    gap: 30px;
+    padding: 16px 40px;
+    align-items: center;
+    
+    .logo{
+        font-family: 'Pacifico', cursive;
+        text-decoration: none;
+        color: black;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        
+        
+        a{
+            text-decoration: none;
+            color: black;
+    
+        }
+    }
+    .botao{
+        margin-left: auto;
+        text-decoration: none;
+        padding: 10px 15px;
+        border: solid 1px black;
+        color: white;
+        background-color: black;
+        
+    }
+}
